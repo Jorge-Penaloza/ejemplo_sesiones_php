@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-07-2021 a las 09:20:19
+-- Tiempo de generación: 19-07-2021 a las 09:19:29
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.3
 
@@ -44,13 +44,6 @@ INSERT INTO `products` (`id_product`, `name`, `description`, `price`) VALUES
 (1, 'Juan Salvador Gaviota', 'Cuento', 5600),
 (2, '2 años de vacaciones', 'Aventura', 10500);
 COMMIT;
-
-INSERT INTO `products` (`id_product`, `name`, `description`, `price`) VALUES 
-(1, 'Juan Salvador Gaviota', 'Cuento', 5600), 
-(2, '2 años de vacaciones', 'Aventura', 10500), 
-(3, 'Necronomicon', 'Terror', 23600), 
-(4, 'La biblia de los caidos: El testamento de MAD', 'Ficcion', 15500), 
-(5, 'La guerra de los cielos', 'Ficcion', 14500)
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
